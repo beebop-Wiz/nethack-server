@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nethack Web Client - v. 2.0.1</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="nhwc.js"></script>
+  </head>
+  <body onload="tty_init()">
+    <h1>NetHack Web Client - v. 2.0.1</h1>
+    <button id="connect-button" onclick="connect(event)" onfocus="this.blur();">Connect</button>
+    Bitmap font: <select id="bitfont" onchange="setfontsize()"></select> <br>
+    <br/>
+    <canvas id="term" width="800" height="384" style="border:1px solid black"></canvas><br>
+    <div id="image-anchor"></div>
+    <a href="leaderboard">Leaderboard</a>
+    <hr>
+    <h3> News </h3>
+    <div id="news">
+      2018-01-20: 2.0.1: Fixed a bunch of bugs that decided to pop up as part of what should have been a completely unrelated change.<br>
+      2017-01-21: 2.0.0: Major network rewrite; network code now uses much less data. <br>
+      2016-12-06: 1.4.0: Switched rendering to use the bitmap renderer. <br>
+      2016-12-03: 1.3.0: Massive leaderboard improvements. Check 'em out! <br>
+      2016-11-28: 1.2.4: Replaced ⌠ with ∫ in IBMgraphics to fix an issue with some fonts. Also fixed a backend issue that could lead to random disconnects.<br>
+      2016-11-26: 1.2.3: Rudimentary IBMgraphics support and fix for arrow keys in options editor.<br>
+      2016-11-26: 1.2.2: Text rendering fixes.<br>
+      2016-11-25: 1.2.1: Added an option to disable bold fonts.<br>
+      2016-11-25: 1.2.0: Added font size selector.<br>
+      2016-11-25: 1.1.1: Fixed some issues with bold text. <br>
+      2016-11-24: 1.1.0: Added a leaderboard! See the top 50 games played. <br>
+      2016-11-24: 1.0.1: Fixed a bunch of Chrome compatibility things. <br>
+      2016-11-24: 1.0.0: Added all functionality that isn't added in future updates. <br>      
+    </div>
+  </body>
+</html>

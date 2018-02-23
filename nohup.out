@@ -1,0 +1,207 @@
+Setting up watches.
+Watches established.
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=1095	deathdnum=2	deathlev=5	maxlvl=5	hp=-4	maxhp=52	deaths=1	deathdate=20180129	birthdate=20180125	uid=5	role=Sam	race=Hum	gender=Mal	align=Law	name=kroagnon	death=killed by a kitten called #2?	while=praying	conduct=0xf80	turns=1502	achieve=0x0	realtime=25216	starttime=1516911841	endtime=1517247860	gender0=Mal	align0=Law	flags=0x0
+Setting up watches.
+Watches established.
+Setting up watches.
+Watches established.
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=5957	deathdnum=0	deathlev=8	maxlvl=9	hp=0	maxhp=73	deaths=1	deathdate=20180215	birthdate=20180215	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a crocodile	conduct=0xf80	turns=5365	achieve=0x0	realtime=73037	starttime=1518713951	endtime=1518716750	gender0=Fem	align0=Law	flags=0x0
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=4446	deathdnum=0	deathlev=5	maxlvl=6	hp=-7	maxhp=66	deaths=1	deathdate=20180215	birthdate=20180215	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a poisonous corpse	conduct=0xf80	turns=3218	achieve=0x0	realtime=3656	starttime=1518726452	endtime=1518727461	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=64497	deathdnum=0	deathlev=15	maxlvl=15	hp=-3	maxhp=115	deaths=1	deathdate=20180216	birthdate=20180215	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by an Olog-hai	conduct=0xf00	turns=13605	achieve=0x400	realtime=157296	starttime=1518727476	endtime=1518815467	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2034	deathdnum=2	deathlev=5	maxlvl=5	hp=0	maxhp=49	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a hallucinogen-distorted water moccasin	conduct=0xf80	turns=1862	achieve=0x0	realtime=7320	starttime=1518912040	endtime=1518914249	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=20692	deathdnum=4	deathlev=6	maxlvl=10	hp=-1	maxhp=115	deaths=1	deathdate=20180218	birthdate=20180217	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by an energy vortex	while=praying	conduct=0xf80	turns=8763	achieve=0x0	realtime=75874	starttime=1518886402	endtime=1518915773	gender0=Fem	align0=Law	flags=0x0
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=956	deathdnum=2	deathlev=4	maxlvl=4	hp=52	maxhp=52	deaths=0	deathdate=20180218	birthdate=20180218	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=quit	conduct=0xf88	turns=1213	achieve=0x0	realtime=3773	starttime=1518915972	endtime=1518916565	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2566	deathdnum=2	deathlev=7	maxlvl=7	hp=-1	maxhp=60	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a soldier ant	conduct=0xf80	turns=2118	achieve=0x0	realtime=2111	starttime=1518916567	endtime=1518929075	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=89	deathdnum=0	deathlev=1	maxlvl=1	hp=0	maxhp=12	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a succubus	conduct=0xfcf	turns=329	achieve=0x0	realtime=663	starttime=1518932472	endtime=1518933136	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=92271	deathdnum=0	deathlev=20	maxlvl=20	hp=-1	maxhp=131	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by Yeenoghu	while=paralyzed by a monster	conduct=0xf80	turns=12345	achieve=0x400	realtime=174929	starttime=1518929111	endtime=1518935765	gender0=Fem	align0=Law	flags=0x0
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=1096	deathdnum=2	deathlev=5	maxlvl=5	hp=-6	maxhp=27	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a gnome	conduct=0xf88	turns=1085	achieve=0x0	realtime=10471	starttime=1518933289	endtime=1518936764	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=98	deathdnum=0	deathlev=1	maxlvl=1	hp=-1	maxhp=9	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a boiling potion	while=frozen by a potion	conduct=0xfc8	turns=286	achieve=0x0	realtime=197	starttime=1518936773	endtime=1518936970	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=14291	deathdnum=4	deathlev=8	maxlvl=10	hp=89	maxhp=95	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a death ray	conduct=0xe80	turns=5035	achieve=0x0	realtime=28654	starttime=1518935812	endtime=1518937629	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=462	deathdnum=0	deathlev=3	maxlvl=3	hp=-5	maxhp=37	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a djinni	conduct=0xf80	turns=500	achieve=0x0	realtime=1606	starttime=1518937661	endtime=1518937947	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=16307	deathdnum=0	deathlev=9	maxlvl=9	hp=-3	maxhp=108	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by an ogre lord	conduct=0xd80	turns=5279	achieve=0x400	realtime=39270	starttime=1518937983	endtime=1518940461	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=423	deathdnum=0	deathlev=3	maxlvl=3	hp=-2	maxhp=19	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a water moccasin	conduct=0xf88	turns=1045	achieve=0x0	realtime=53640	starttime=1518937033	endtime=1518990317	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=17461	deathdnum=4	deathlev=3	maxlvl=8	hp=-5	maxhp=110	deaths=1	deathdate=20180218	birthdate=20180218	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a giant mummy	while=frozen by a monster's gaze	conduct=0xf80	turns=6373	achieve=0x400	realtime=38118	starttime=1518971726	endtime=1518991730	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=1711	deathdnum=2	deathlev=4	maxlvl=5	hp=0	maxhp=49	deaths=1	deathdate=20180219	birthdate=20180219	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a straw golem	conduct=0xf88	turns=1390	achieve=0x0	realtime=2085	starttime=1519011132	endtime=1519011577	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=609	deathdnum=2	deathlev=3	maxlvl=3	hp=-1	maxhp=25	deaths=1	deathdate=20180219	birthdate=20180219	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a gnome	conduct=0xf80	turns=763	achieve=0x0	realtime=1724	starttime=1519015304	endtime=1519015632	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=46	deathdnum=0	deathlev=1	maxlvl=1	hp=-1	maxhp=12	deaths=1	deathdate=20180219	birthdate=20180219	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a shattered potion	conduct=0xf88	turns=77	achieve=0x0	realtime=365	starttime=1519064269	endtime=1519064635	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2572	deathdnum=2	deathlev=6	maxlvl=6	hp=-2	maxhp=49	deaths=1	deathdate=20180219	birthdate=20180219	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a hill orc	conduct=0xf80	turns=2892	achieve=0x0	realtime=6219	starttime=1519065039	endtime=1519066826	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2114	deathdnum=2	deathlev=6	maxlvl=6	hp=0	maxhp=53	deaths=1	deathdate=20180220	birthdate=20180220	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a gnome lord	conduct=0x780	turns=1869	achieve=0x0	realtime=5096	starttime=1519158745	endtime=1519160168	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2628	deathdnum=0	deathlev=8	maxlvl=8	hp=-2	maxhp=43	deaths=1	deathdate=20180220	birthdate=20180220	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a dingo	conduct=0xf88	turns=2256	achieve=0x0	realtime=8284	starttime=1519160297	endtime=1519162039	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=183182	deathdnum=0	deathlev=27	maxlvl=27	hp=-3	maxhp=172	deaths=1	deathdate=20180220	birthdate=20180219	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by an invisible stalker	conduct=0x680	turns=16960	achieve=0xc00	realtime=459479	starttime=1519011589	endtime=1519170674	gender0=Fem	align0=Law	flags=0x0
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=3121	deathdnum=2	deathlev=7	maxlvl=7	hp=-1	maxhp=79	deaths=1	deathdate=20180221	birthdate=20180220	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=FBE	death=killed by a soldier ant	conduct=0xf80	turns=1915	achieve=0x0	realtime=1986	starttime=1519171165	endtime=1519171893	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=1458	deathdnum=0	deathlev=7	maxlvl=7	hp=0	maxhp=54	deaths=1	deathdate=20180221	birthdate=20180220	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a coyote	conduct=0xf80	turns=2546	achieve=0x0	realtime=13929	starttime=1519170646	endtime=1519173508	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=56	deathdnum=0	deathlev=1	maxlvl=1	hp=-2	maxhp=12	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a goblin	conduct=0xfcf	turns=54	achieve=0x0	realtime=28	starttime=1519236895	endtime=1519236924	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=267	deathdnum=0	deathlev=2	maxlvl=2	hp=0	maxhp=13	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a carnivorous bag	conduct=0xfcf	turns=619	achieve=0x0	realtime=572	starttime=1519236933	endtime=1519237174	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=88	deathdnum=0	deathlev=1	maxlvl=1	hp=-2	maxhp=13	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a water moccasin	conduct=0xfcf	turns=149	achieve=0x0	realtime=68	starttime=1519237212	endtime=1519237280	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=158	deathdnum=0	deathlev=2	maxlvl=2	hp=0	maxhp=12	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by tumbling down a flight of stairs	conduct=0xf88	turns=633	achieve=0x0	realtime=155	starttime=1519237325	endtime=1519237481	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=48	deathdnum=0	deathlev=1	maxlvl=1	hp=-1	maxhp=12	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a goblin	while=sleeping	conduct=0xfc8	turns=49	achieve=0x0	realtime=21	starttime=1519237711	endtime=1519237733	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2779	deathdnum=0	deathlev=8	maxlvl=8	hp=-13	maxhp=50	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Mon	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a mumak	conduct=0xf90	turns=2029	achieve=0x0	realtime=7849	starttime=1519237788	endtime=1519239366	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=389	deathdnum=0	deathlev=3	maxlvl=3	hp=-7	maxhp=14	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a scroll of earth	conduct=0xf88	turns=984	achieve=0x0	realtime=555	starttime=1519246887	endtime=1519247175	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=1298	deathdnum=2	deathlev=6	maxlvl=6	hp=-4	maxhp=37	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a gnome	conduct=0xf80	turns=1445	achieve=0x0	realtime=2548	starttime=1519247200	endtime=1519248033	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=752	deathdnum=0	deathlev=4	maxlvl=4	hp=0	maxhp=27	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Mal	align=Neu	name=Aidan	death=killed by a dwarf zombie	while=frozen by a monster's gaze	conduct=0xf80	turns=1729	achieve=0x0	realtime=1345	starttime=1519248111	endtime=1519248554	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=997	deathdnum=0	deathlev=5	maxlvl=5	hp=-1	maxhp=33	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a pony	conduct=0xf88	turns=1062	achieve=0x0	realtime=977	starttime=1519248579	endtime=1519249051	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=546	deathdnum=0	deathlev=3	maxlvl=3	hp=-2	maxhp=27	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a homunculus	conduct=0xf80	turns=1219	achieve=0x0	realtime=748	starttime=1519249060	endtime=1519249431	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=726	deathdnum=2	deathlev=5	maxlvl=5	hp=-3	maxhp=20	deaths=1	deathdate=20180221	birthdate=20180221	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a gnome king	conduct=0xf80	turns=1055	achieve=0x0	realtime=5757	starttime=1519252043	endtime=1519252825	gender0=Fem	align0=Neu	flags=0x0
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=110	deathdnum=0	deathlev=2	maxlvl=2	hp=0	maxhp=12	deaths=1	deathdate=20180222	birthdate=20180222	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a jackal	conduct=0xec8	turns=583	achieve=0x0	realtime=328	starttime=1519322613	endtime=1519322802	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=539	deathdnum=0	deathlev=2	maxlvl=2	hp=0	maxhp=14	deaths=1	deathdate=20180222	birthdate=20180222	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a hobbit	conduct=0xf88	turns=1006	achieve=0x0	realtime=534	starttime=1519322811	endtime=1519323128	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=129672	deathdnum=0	deathlev=27	maxlvl=27	hp=-16	maxhp=124	deaths=2	deathdate=20180222	birthdate=20180222	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=beebop	death=killed by a minotaur	conduct=0x180	turns=10667	achieve=0x800	realtime=105521	starttime=1519320841	endtime=1519326928	gender0=Fem	align0=Law	flags=0x0
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=947	deathdnum=2	deathlev=3	maxlvl=3	hp=-1	maxhp=35	deaths=1	deathdate=20180222	birthdate=20180222	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a goblin	while=frozen by a monster's gaze	conduct=0xf80	turns=1452	achieve=0x0	realtime=15411	starttime=1519323152	endtime=1519328747	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=691	deathdnum=0	deathlev=4	maxlvl=4	hp=-2	maxhp=21	deaths=1	deathdate=20180222	birthdate=20180222	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a giant bat	conduct=0xfce	turns=846	achieve=0x0	realtime=844	starttime=1519328790	endtime=1519329133	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=137	deathdnum=0	deathlev=1	maxlvl=1	hp=0	maxhp=18	deaths=1	deathdate=20180222	birthdate=20180222	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a goblin	conduct=0xf88	turns=236	achieve=0x0	realtime=207	starttime=1519330139	endtime=1519330347	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2767	deathdnum=2	deathlev=6	maxlvl=6	hp=0	maxhp=44	deaths=1	deathdate=20180222	birthdate=20180222	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a Woodland-elf	while=sleeping off a magical draught	conduct=0xf88	turns=3476	achieve=0x0	realtime=12640	starttime=1519332329	endtime=1519334235	gender0=Fem	align0=Neu	flags=0x0
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=2415	deathdnum=0	deathlev=8	maxlvl=8	hp=-1	maxhp=40	deaths=1	deathdate=20180223	birthdate=20180223	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a Woodland-elf	conduct=0xe80	turns=3280	achieve=0x0	realtime=28652	starttime=1519353236	endtime=1519359295	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=74	deathdnum=0	deathlev=2	maxlvl=2	hp=-1	maxhp=12	deaths=1	deathdate=20180223	birthdate=20180223	uid=5	role=Wiz	race=Hum	gender=Mal	align=Cha	name=beebop	death=killed by a fox called test post please ignore	conduct=0xfff	turns=141	achieve=0x0	realtime=46	starttime=1519360243	endtime=1519360282	gender0=Mal	align0=Cha	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=1535	deathdnum=2	deathlev=7	maxlvl=7	hp=0	maxhp=61	deaths=1	deathdate=20180223	birthdate=20180223	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=beebop	death=killed by a giant beetle	conduct=0xf88	turns=2336	achieve=0x0	realtime=3705	starttime=1519409863	endtime=1519410457	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh360/var/xlogfile OPEN 
+version=3.6.0	points=139	deathdnum=0	deathlev=1	maxlvl=1	hp=0	maxhp=12	deaths=1	deathdate=20180223	birthdate=20180223	uid=5	role=Wiz	race=Hum	gender=Fem	align=Neu	name=Aidan	death=killed by a jackal	conduct=0xfc8	turns=117	achieve=0x0	realtime=67	starttime=1519420884	endtime=1519420952	gender0=Fem	align0=Neu	flags=0x4
+Setting up watches.
+Watches established.

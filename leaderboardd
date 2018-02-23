@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true; do
+    inotifywait /opt/nethack/nh360/var/xlogfile
+#    perl genleaderboard.pl > htdocs/lb.html
+    perl psql_leaderboard_write.pl
+done
