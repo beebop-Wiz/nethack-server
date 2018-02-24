@@ -22,7 +22,7 @@ def fifo_reader(arg):
         print('[FIFO] parsed line')
         whilestr = ""
         if "while" in fdict:
-            whilestr = " " + fdict["while"]
+            whilestr = " while " + fdict["while"]
         deathline = "`%s (%s %s %s %s), %s%s on level %s after %s turns, with %s points`" % (fdict["name"], fdict["role"], fdict["race"], fdict["gender"], fdict["align"], fdict["death"], whilestr, fdict["deathlev"], fdict["turns"], fdict["points"])
         print(deathline)
         client.loop.create_task(post_message(discord.Object('253557833352609803'), deathline))
