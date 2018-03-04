@@ -2,7 +2,7 @@ use lib 'Mojo-Discord/lib';
 use Mojo::Discord;
 use strict;
 
-my $discord_token = 'NDE2NDIyNjc1NDI3MDk4NjQ0.DXEPXw.pS-wFBlY_lBQ3HrxucoB8nCQa5Q';
+my $discord_token = 'NO U';
 my $discord_name = 'Rodney';
 my $discord_url = "https://localhost";
 my $discord_version = '1.0';
