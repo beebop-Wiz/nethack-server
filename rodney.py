@@ -2,6 +2,11 @@ import discord
 import os
 import threading
 import select
+import urllib.parse
+import urllib.request
+import aiohttp
+import logging
+from lxml import html, etree
 
 client = discord.Client()
 
@@ -28,6 +33,23 @@ def fifo_reader(arg):
         client.loop.create_task(post_message(discord.Object('253557833352609803'), deathline))
         fifo.close()
 
+
+async def wikiparse(channel, text, source):
+    print('[WIKITEXT] Parsing...')
+    tree = html.fromstring(text)
+    title = tree.xpath('//*[@id="firstHeading"]/text()')[0]
+    first_paragraph = tree.xpath('//div[@id="mw-content-text"]/p[1]')[0]
+    text = "From <" + source + ">:\n"
+    if first_paragraph.text is not None:
+        text += first_paragraph.text
+    for e in first_paragraph:
+        if e.tag is 'b':
+            text += '**' + e.text + '**'
+        elif e.tag is 'a':
+            text += e.text
+        if e.tail is not None:
+            text += e.tail
+    client.loop.create_task(post_message(channel, text))
     
 @client.event
 async def on_ready():
@@ -39,13 +61,22 @@ async def on_message(message):
     if message.content.startswith('!gt'):
         args = message.content.split(" ")
         await client.send_message(message.channel, "Go Team `" + args[1] + "`!")
+    elif message.content.startswith('!wiki'):
+        await client.send_typing(message.channel)
+        args = message.content.split(" ")
+        link = "https://www.nethackwiki.com/wiki/" + urllib.parse.quote(" ".join(args[1:]))
+        async with aiohttp.ClientSession() as session:
+            async with session.get(link) as response:
+                if response.status == 200:
+                    await wikiparse(message.channel, await response.text(), link)
+                else:
+                    await client.send_message(message.channel, "Error when retrieving " + link + ": HTTP " + str(response.status))
+        
 
 @client.event
 async def post_message(channel, message):
     await client.send_message(channel, message)
-        
+    
+#logging.basicConfig(level=logging.DEBUG)        
 client.loop.run_in_executor(None, fifo_reader, None)
 client.run("NDE2NDIyNjc1NDI3MDk4NjQ0.DXEPXw.pS-wFBlY_lBQ3HrxucoB8nCQa5Q")
-
-
-    

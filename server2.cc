@@ -78,7 +78,7 @@ public:
 
   int handle_recv(struct lws *wsi, char *text, size_t len) {
     write(masterfd, text, len);
-    printf("recv %x\n", text[0]);
+    //    printf("recv %x\n", text[0]);
     return poll_in(wsi);
   }
 
