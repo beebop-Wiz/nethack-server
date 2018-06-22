@@ -17,7 +17,6 @@ var tty = [];
 var timer;
 var key_queue = [];
 
-var bitmap = true;
 var bitmapscale = 1;
 
 var fontsize = 16;
@@ -113,13 +112,13 @@ function main() {
 		}
 	};
 	reader.readAsArrayBuffer(evt.data);
-//	log("'" + evt.data + "'");
     };
     socket.onclose = function(evt) {
 	document.getElementById("connect-button").innerHTML="Connect";
 	conn_state = 0;
 	setColor(0, false);
 	ctx.fillRect(0, 0, t_width, t_height);
+	tty.fill([" ", 0, 7], 0, 80 * 25);
 	clearInterval(timer);
     }
     timer = setInterval(refresh, 10);
@@ -145,7 +144,6 @@ var vt100_param;
 var vt100_ic;
 
 function log(s) {
-//    document.getElementById("log").innerHTML += s + "<br>";
     console.log(s);
 }    
 
@@ -358,39 +356,23 @@ function vt100_parse(c) {
 }
 
 function setfontsize() {
-//    bitmap = document.getElementById("usebitmap").checked;
-    if(bitmap) {
-	var bidx = document.getElementById("bitfont").selectedIndex;
-	var img;
-	if(document.getElementById("bitmapImg") == null) {
-	    img = document.createElement("img");
-	    img.setAttribute("id", "bitmapImg");
-	} else {
-	   img = document.getElementById("bitmapImg");
-	}
-	img.src = bmfonts[bidx][3];
-	img.style.display = "none";
-	img.onload = redraw_whole_tty;
-	document.getElementById('image-anchor').appendChild(img);	
-	c_width = bmfonts[bidx][1] * bitmapscale;
-	c_height = bmfonts[bidx][2] * bitmapscale;
-	bmcanvas.width = c_width;
-	bmcanvas.height = c_height;
+    var bidx = document.getElementById("bitfont").selectedIndex;
+    var img;
+    if(document.getElementById("bitmapImg") == null) {
+	img = document.createElement("img");
+	img.setAttribute("id", "bitmapImg");
     } else {
-	fontsize = document.getElementById("fontsize").value;
-	usebold = document.getElementById("usebold").checked;
-	font = document.getElementById("font").value;
-	widthadj = document.getElementById("cwidth").value;
-	heightadj = document.getElementById("cheight").value;
-	block_cursor = false;
-	ctx.font = "bold " + fontsize + "px " + font;
-	c_height = parseInt(fontsize);
-	c_height += parseInt(widthadj);
-	c_height = Math.round(c_height);
-	c_width = Math.max(ctx.measureText("m").width, ctx.measureText("@").width);
-	c_width += parseInt(widthadj);
-	c_width = Math.round(c_width);
+	img = document.getElementById("bitmapImg");
     }
+    img.src = bmfonts[bidx][3];
+    img.style.display = "none";
+    img.onload = redraw_whole_tty;
+    document.getElementById('image-anchor').appendChild(img);	
+    c_width = bmfonts[bidx][1] * bitmapscale;
+    c_height = bmfonts[bidx][2] * bitmapscale;
+    bmcanvas.width = c_width;
+    bmcanvas.height = c_height;
+    
     t_height = c_height * 25;
     t_width = c_width * 80;
     document.getElementById("term").width = t_width;
@@ -402,7 +384,7 @@ function setfontsize() {
     localStorage.nhWidthAdj = widthadj;
     localStorage.nhHeightAdj = heightadj;
     localStorage.nhBitmapIdx = document.getElementById("bitfont").selectedIndex;
-    localStorage.nhUseBitmap = bitmap;
+    localStorage.nhUseBitmap = true; // legacy
 }
 
 function redraw_whole_tty() {
@@ -435,41 +417,12 @@ function drawBitmapCharacter(x, y, cd) {
     setColor(cd[2], cd[3]);
     if(x === cx && y === cy)
 	ctx.fillRect(x * c_width, (y + 1) * c_height - 1, c_width, 1);
-    // for(var i = 0; i < bfont.length; i++) {
-    // 	if(cd[0] == bfont[i][0]) {
-    // 	    for(var ty = 0; ty < 8; ty++) {
-    // 		for(var tx = 0; tx < 8; tx++) {
-    // 		    if(bfont[i][ty + 1] & (1 << tx)) setColor(cd[2], cd[3]);
-    // 		    else setColor(cd[1], false);
-    // 		    ctx.fillRect(x * 8 + tx, y * 8 + ty, 1, 1);
-    // 		}
-    // 	    }
-    // 	    break;
-    // 	}
-    // }
 }
 
 function update_term(x, y) {
     if(x < 0 || x > 79 || y < 0 || y > 79) return;
     var cd = tty[x + y * 80];
-    if(bitmap) {
-	drawBitmapCharacter(x, y, cd);
-    } else {
-	if(block_cursor && x == cx && y == cy) setColor(cd[2], cd[3]);
-	else setColor(cd[1], false);
-	ctx.fillRect(x * c_width, y * c_height, c_width, c_height);
-	if(block_cursor && x == cx && y == cy) setColor(cd[1], false);
-	else setColor(cd[2], cd[3]);
-	if(cd[3] && usebold) ctx.font = "bold " + fontsize + "px " + font;
-	else ctx.font = fontsize + "px " + font;
-	ctx.textBaseline = "bottom";
-	ctx.textAlign = "center";
-	ctx.globalCompositeOperation="source-atop";
-	ctx.fillText(cd[0], Math.round((x + 0.5) * c_width), Math.round((y + 1) * c_height));
-	ctx.globalCompositeOperation="source-over";
-	if(!block_cursor && x === cx && y === cy)
-	    ctx.strokeRect(x * c_width + 1, (y + .9) * c_height, c_width - 2, 1);
-    }
+    drawBitmapCharacter(x, y, cd);
 }    
 
 function addch(x, y, c) {
@@ -507,35 +460,11 @@ function tty_init() {
     for(var i = 0; i < 80 * 25; i++) {
 	tty[i] = [" ", 0, 7, false];
     }
-/*    if(localStorage.nhFontSize != undefined) {
-	fontsize = localStorage.nhFontSize;
-	document.getElementById("fontsize").value = fontsize;
-    }
-    if(localStorage.nhUseBold != undefined) {
-	usebold = localStorage.nhUseBold;
-	document.getElementById("usebold").checked = usebold == "true";
-    }
-    if(localStorage.nhFont != undefined) {
-	font = localStorage.nhFont;
-	document.getElementById("font").value = font;
-    }
-    if(localStorage.nhWidthAdj != undefined) {
-	widthadj = localStorage.nhWidthAdj;
-	document.getElementById("cwidth").value = widthadj;
-    }
-    if(localStorage.nhHeightAdj != undefined) {
-	heightadj = localStorage.nhHeightAdj;
-	document.getElementById("cheight").value = heightadj;
-    } */
     for(var i = 0; i < bmfonts.length; i++) {
 	var o = document.createElement("option");
 	o.text = bmfonts[i][0];
 	document.getElementById("bitfont").options.add(o);
     }
-//    if(localStorage.nhUseBitmap != undefined) {
-//	bitmap = localStorage.nhUseBitmap;
-//	document.getElementById("usebitmap").checked = bitmap;
-  //  }
     if(localStorage.nhBitmapIdx != undefined) {
 	document.getElementById("bitfont").selectedIndex = localStorage.nhBitmapIdx;
     }

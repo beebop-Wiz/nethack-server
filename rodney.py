@@ -55,6 +55,7 @@ async def wikiparse(channel, text, source):
 async def on_ready():
     print("Connected")
     await client.change_presence(game=discord.Game(name="NetHack 3.6.0"))
+    print("Successful API call")
 
 @client.event
 async def on_message(message):
@@ -79,4 +80,4 @@ async def post_message(channel, message):
     
 #logging.basicConfig(level=logging.DEBUG)        
 client.loop.run_in_executor(None, fifo_reader, None)
-client.run("NDE2NDIyNjc1NDI3MDk4NjQ0.DXEPXw.pS-wFBlY_lBQ3HrxucoB8nCQa5Q")
+client.run("NDE2NDIyNjc1NDI3MDk4NjQ0.DbRe-A.IkvY8ckx2o0KMcmWLG7GWVf3XPM")

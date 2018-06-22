@@ -1,12 +1,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Nethack Web Client - v. 2.1.0</title>
+    <title>Nethack Web Client - v. 2.1.1</title>
     <link rel="stylesheet" href="main.css">
     <script src="nhwc.js"></script>
   </head>
   <body onload="tty_init()">
-    <h1>NetHack Web Client - v. 2.1.0</h1>
+    <h1>NetHack Web Client - v. 2.1.1</h1>
     <button id="connect-button" onclick="connect(event)" onfocus="this.blur();">Connect</button>
     Bitmap font: <select id="bitfont" onchange="setfontsize()"></select> <br>
     <br/>
@@ -16,6 +16,7 @@
     <hr>
     <h3> News </h3>
     <div id="news">
+      2018-04-15: 2.1.1: Fixed a bug that would cause text to reappear if the font was changed after disconnecting.<br>
       2018-02-07: 2.1.0: Leaderboard now officially supports filtering by username.<br>
       2018-01-20: 2.0.1: Fixed a bunch of bugs that decided to pop up as part of what should have been a completely unrelated change.<br>
       2017-01-21: 2.0.0: Major network rewrite; network code now uses much less data. <br>
