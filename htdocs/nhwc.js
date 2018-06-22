@@ -78,7 +78,6 @@ function refresh() {
 }
 
 function handle_keypress(evt, kd) {
-    var kbstate = 0;
     var which = evt.which ? evt.which : evt.keyCode;
     if(which == 8) which = 127;
     if(evt.ctrlKey && evt.which > 96) key_queue.push(String.fromCharCode(which - 96));
@@ -473,22 +472,3 @@ function tty_init() {
     setfontsize();
 }
 
-var in_fc = false;
-
-function show_fontconfig() {
-    if(in_fc) {
-	document.addEventListener('keypress', keypress, true);
-	document.addEventListener('keydown', keydown, true);
-	document.getElementById("term").style.display = "block";
-	document.getElementById("fontconfig").style.display = "none";
-	document.getElementById("fonts-button").innerHTML = "Font Configuration";
-	
-    } else {
-	document.removeEventListener('keypress', keypress, true);
-	document.removeEventListener('keydown', keydown, true);
-	document.getElementById("term").style.display = "none";
-	document.getElementById("fontconfig").style.display = "block";
-	document.getElementById("fonts-button").innerHTML = "Back";
-    }
-    in_fc = !in_fc;
-}
