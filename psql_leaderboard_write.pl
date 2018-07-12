@@ -8,9 +8,9 @@ my $dbh = DBI->connect("dbi:Pg:dbname=nethack", "", "", { RaiseError => 1, AutoC
 my ($tfh1, $tfname1) = tempfile("/tmp/psqllbXXXXXX", UNLINK=>1);
 my ($tfh2, $tfname2) = tempfile("/tmp/psqldfXXXXXX", UNLINK=>1);
 
-`diff xlogfile /opt/nethack/nh360/var/xlogfile > $tfname1`;
+`diff xlogfile /opt/nethack/nh361/xlogfile > $tfname1`;
 `cat $tfname1 > discord_fifo`;
-`cp /opt/nethack/nh360/var/xlogfile xlogfile`;
+`cp /opt/nethack/nh361/xlogfile xlogfile`;
 my $lcnt = 0;
 while(<$tfh1>) {
     if($lcnt) {
