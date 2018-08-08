@@ -3663,3 +3663,17 @@ Setting up watches.
 Watches established.
 Setting up watches.
 Watches established.
+Setting up watches.
+Watches established.
+/opt/nethack/nh361/xlogfile OPEN 
+version=3.6.1	points=4	deathdnum=0	deathlev=1	maxlvl=1	hp=0	maxhp=11	deaths=1	deathdate=20180804	birthdate=20180804	uid=5	role=Wiz	race=Elf	gender=Mal	align=Cha	name=Pugman	death=killed by a water moccasin	conduct=0xf8f	turns=361	achieve=0x0	realtime=156	starttime=1533426390	endtime=1533426547	gender0=Mal	align0=Cha	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh361/xlogfile OPEN 
+version=3.6.1	points=6407	deathdnum=0	deathlev=24	maxlvl=24	hp=0	maxhp=15	deaths=1	deathdate=20180804	birthdate=20180804	uid=5	role=Arc	race=Dwa	gender=Mal	align=Law	name=Pugman	death=killed by a water moccasin called The cost of digging for victory is a happy snake	conduct=0xf8f	turns=211	achieve=0x0	realtime=202	starttime=1533426555	endtime=1533426757	gender0=Mal	align0=Law	flags=0x4
+Setting up watches.
+Watches established.
+/opt/nethack/nh361/xlogfile OPEN 
+version=3.6.1	points=1100	deathdnum=2	deathlev=8	maxlvl=8	hp=-2	maxhp=39	deaths=1	deathdate=20180804	birthdate=20180713	uid=5	role=Val	race=Dwa	gender=Fem	align=Law	name=flfybread	death=killed by a soldier ant	conduct=0xf80	turns=2727	achieve=0x0	realtime=2644	starttime=1531482852	endtime=1533440995	gender0=Fem	align0=Law	flags=0x4
+Setting up watches.
+Watches established.

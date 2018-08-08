@@ -88,10 +88,10 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('!gt'):
+    if message.content.startswith('!gt '):
         args = message.content.split(" ")
         await client.send_message(message.channel, "Go Team `" + args[1] + "`!")
-    elif message.content.startswith('!wiki'):
+    elif message.content.startswith('!wiki '):
         await client.send_typing(message.channel)
         args = message.content.split(" ")
         link = "https://www.nethackwiki.com/wiki/" + urllib.parse.quote(" ".join(args[1:]))
@@ -101,17 +101,26 @@ async def on_message(message):
                     await wikiparse(message.channel, await response.text(), link)
                 else:
                     await client.send_message(message.channel, "Error when retrieving " + link + ": HTTP " + str(response.status))
-    elif message.content.startswith('!zalgo'):
+    elif message.content.startswith('!zalgo '):
         await client.send_typing(message.channel)
         out = ""
-        for c in " ".join(message.content.split(" ")[1:]):
+        for c in message.content[len('!zalgo '):]:
             out = out + c
-            for i in range(random.randint(0,2)):
-                out = out + random.choice(zalgo_mid)
-            for i in range(random.randint(2,5)):
-                out = out + random.choice(zalgo_down)
-        await client.send_message(message.channel, out)
-            
+            if not c.isspace():
+                for i in range(random.randint(0,2)):
+                    out = out + random.choice(zalgo_mid)
+                for i in range(random.randint(2,5)):
+                    out = out + random.choice(zalgo_down)
+
+        nick = ""
+        if message.author.nick is None:
+            nick = message.author.name
+        else:
+            nick = message.author.nick
+        await client.send_message(message.channel, "[{}] {}".format(nick, out))
+        await client.delete_message(message)
+    elif message.content.startswith('!lenny '):
+        await client.send_message(message.channel, u'( ͡° ͜ʖ ͡°)')
         
 
 @client.event
@@ -120,4 +129,4 @@ async def post_message(channel, message):
     
 #logging.basicConfig(level=logging.DEBUG)        
 client.loop.run_in_executor(None, fifo_reader, None)
-client.run("NDE2NDIyNjc1NDI3MDk4NjQ0.DbRe-A.IkvY8ckx2o0KMcmWLG7GWVf3XPM")
+client.run("NO U")
