@@ -120,4 +120,4 @@ async def post_message(channel, message):
     
 #logging.basicConfig(level=logging.DEBUG)        
 client.loop.run_in_executor(None, fifo_reader, None)
-client.run("NDE2NDIyNjc1NDI3MDk4NjQ0.DbRe-A.IkvY8ckx2o0KMcmWLG7GWVf3XPM")
+client.run("NO U")
